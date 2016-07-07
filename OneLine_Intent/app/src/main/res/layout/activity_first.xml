@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FirstActivity">
+
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转到第二个Activity" />
+
+    <!--<Button-->
+        <!--android:id="@+id/button_1_1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="隐式Intent" />-->
+
+    <Button
+        android:id="@+id/button_1_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="调用系统浏览器" />
+
+
+    <Button
+        android:id="@+id/button_1_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="调用系统拨号界面" />
+
+    <Button
+        android:id="@+id/button_put_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="向下一个活动传递数据"/>
+
+    <Button
+        android:id="@+id/button_back_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="接收上一个Activity返回的数据"/>
+
+    <Button
+        android:id="@+id/button_quit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="退出"/>
+
+    <TextView
+        android:id="@+id/text_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="接收返回的数据"
+        android:textSize="16sp"
+        android:textColor="#174297"/>
+
+</LinearLayout>
